@@ -1,5 +1,4 @@
 # avans-datascience
-
 # Seaborn
 Perform a univariate analysis on all the catagorical data of the penguins dataset. Commit the notebook to your portofolio when you're finished.
 
@@ -110,7 +109,7 @@ penguins["species"].unique()
 from matplotlib import pyplot as plt
 ```
 
-## Welke penguins hebben verschillende maten flippers
+## Hoeveel penguins hebben welke maten flippers
 
 
 ```python
@@ -203,5 +202,6 @@ penguins[penguins.island == "Torgersen"].species.unique()
 
 
     array(['Adelie'], dtype=object)
+
 
 
