@@ -1,6 +1,6 @@
 # avans-datascience
 
-Ik heb gekozen voor de [Spotify Music dataset](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)
+Ik heb gekozen voor de [Netflix Movies and TV Shows](https://www.kaggle.com/shivamb/netflix-shows)
 
 Look online for a dataset that you find interesting to explore. It can be about any topic that you find interesting: sports, games, software development, etc. Commit the dataset to your portofolio. You will be analysing the dataset in future portofolio assignments.
 
