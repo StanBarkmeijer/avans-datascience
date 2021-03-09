@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<bill_length_mm &le; 43.25<br/>gini = 0.64<br/>samples = 232<br/>value = [104, 50, 78]<br/>class = Adelie>, fillcolor="#fbeade"] ;
+1 [label=<bill_depth_mm &le; 14.85<br/>gini = 0.125<br/>samples = 106<br/>value = [99, 3, 4]<br/>class = Adelie>, fillcolor="#e78a47"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.0<br/>samples = 4<br/>value = [0, 0, 4]<br/>class = Chinstrap>, fillcolor="#8139e5"] ;
+1 -> 2 ;
+3 [label=<bill_depth_mm &le; 16.75<br/>gini = 0.057<br/>samples = 102<br/>value = [99, 3, 0]<br/>class = Adelie>, fillcolor="#e6853f"] ;
+1 -> 3 ;
+4 [label=<gini = 0.42<br/>samples = 10<br/>value = [7, 3, 0]<br/>class = Adelie>, fillcolor="#f0b78e"] ;
+3 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 92<br/>value = [92, 0, 0]<br/>class = Adelie>, fillcolor="#e58139"] ;
+3 -> 5 ;
+6 [label=<bill_depth_mm &le; 16.35<br/>gini = 0.514<br/>samples = 126<br/>value = [5, 47, 74]<br/>class = Chinstrap>, fillcolor="#d4bbf6"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<gini = 0.0<br/>samples = 67<br/>value = [0, 0, 67]<br/>class = Chinstrap>, fillcolor="#8139e5"] ;
+6 -> 7 ;
+8 [label=<bill_depth_mm &le; 17.4<br/>gini = 0.344<br/>samples = 59<br/>value = [5, 47, 7]<br/>class = Gentoo>, fillcolor="#67eb9e"] ;
+6 -> 8 ;
+9 [label=<gini = 0.492<br/>samples = 16<br/>value = [0, 9, 7]<br/>class = Gentoo>, fillcolor="#d3f9e3"] ;
+8 -> 9 ;
+10 [label=<gini = 0.206<br/>samples = 43<br/>value = [5, 38, 0]<br/>class = Gentoo>, fillcolor="#53e892"] ;
+8 -> 10 ;
+}
